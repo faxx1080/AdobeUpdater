@@ -25,7 +25,7 @@ public class Main {
 
     static Set<String> seenFiles = new HashSet<>();
 
-    static String newFolder = "C:/Apache24/htdocs";
+    static String newFolder = "C:/Apache24/htdocs/staging";
 
     public static void doLoop() throws Exception {
         var tmpdir = Files.list(Paths.get(System.getProperty("java.io.tmpdir")));
