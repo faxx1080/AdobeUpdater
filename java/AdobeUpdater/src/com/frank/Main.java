@@ -80,7 +80,6 @@ public class Main {
                 System.err.println( zipfile.getFileName().toString() + " already exists, skipping.");
             }
         }
-
     }
 
     public static void main(String[] args) throws Exception {
